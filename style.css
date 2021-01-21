@@ -359,6 +359,8 @@ header ul.is-sticky li a.active {
 
 #agents .card img {
     width: 100%;
+    height: auto;
+    max-width: 506px;
 }
 
 #agents .card h3 {
@@ -964,3 +966,84 @@ footer small a:hover {
   }
 }
 /* end: media queries */
+
+/*Begin Imported Flex Box*/
+
+
+$ratio-16-9: 56.25%;
+$cols: 3;
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: calc(100% / #{$cols});
+  margin: 2px;
+}
+
+
+.padded-container {
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: #{$ratio-16-9 / $cols};
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  margin: auto;
+}
+
+
+
+/*End Imported Flex Box*/
+
+
+/* start: logo styles */
+#logot {
+    margin-bottom: 0.25rem;
+}
+
+#logot h2 {
+    text-align: left;
+}
+
+#logot-slider .slick-slide {
+    text-align: left;
+}
+
+
+#logot-slider .logot-caption {
+    margin: 0 auto;
+}
+
+#logot-slider .logot-caption img {
+    float: left;
+    border-radius: 30px;
+    width: 60px;
+}
+
+
+#logot-slider .slick-arrow {
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    color: #222;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 1;
+}
+#logot-slider .slick-next {
+    right: 0;
+}
