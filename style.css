@@ -95,6 +95,7 @@ p.large-paragraph1 {
     font-size: 1.25rem;
     font-weight: 300;
     padding-left: 60px;
+    float: right;
 }
 /* end: global styles */
 
@@ -116,7 +117,7 @@ header {
 
 #logo {
     font-family: 'Tangerine', cursive;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 200;
     color: #fff;
     text-decoration: none;
@@ -334,23 +335,10 @@ header ul.is-sticky li a.active {
 /* end: properties styles */
 
 /* start: agents styles */
-#agentdiv {
-    padding: 50px; 
-    background-color: #BCC6CC; 
-    display: inline-block;
-}
-
-#agentsbg {
-    margin: 4rem 0 6rem;
-    padding: 0 0 6rem;
-    border-bottom: 1px solid #ccc;
-}
-
 #agents {
     margin: 4rem 0 6rem;
     padding: 0 0 6rem;
     border-bottom: 1px solid #ccc;
-
 }
 
 #agents p.large-paragraph {
@@ -383,7 +371,6 @@ header ul.is-sticky li a.active {
     padding-left: 1rem;
 }
 /* end: agents styles */
-
 /* start: best real estate company styles */
 #the-best {
     margin: 2rem 0;
@@ -797,6 +784,7 @@ footer small a:hover {
     }
     .large-paragraph1 {
         font-size: 1rem;
+        float: right;
 
     }
 
@@ -814,6 +802,7 @@ footer small a:hover {
 
     #agents .card {
         width: 49%;
+        position: absolute;
     }
 
     #the-best .flex > img {
