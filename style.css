@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 
+a { text-decoration: none;
+    color: inherit; 
+} 
 /* start: global styles */
 body {
     font-family: "Roboto", "Helvetica", "Sans-serif";
@@ -48,7 +51,7 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
-    color: #f69314;
+    color: #000;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
@@ -86,6 +89,12 @@ button.rounded {
 p.large-paragraph {
     font-size: 1.25rem;
     font-weight: 300;
+}
+
+p.large-paragraph1 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-left: 60px;
 }
 /* end: global styles */
 
@@ -178,6 +187,7 @@ header ul.is-sticky li a.active {
     width: 100%;
 
 }
+
 
 #hero .fade {
     position: absolute;
@@ -324,10 +334,23 @@ header ul.is-sticky li a.active {
 /* end: properties styles */
 
 /* start: agents styles */
+#agentdiv {
+    padding: 50px; 
+    background-color: #BCC6CC; 
+    display: inline-block;
+}
+
+#agentsbg {
+    margin: 4rem 0 6rem;
+    padding: 0 0 6rem;
+    border-bottom: 1px solid #ccc;
+}
+
 #agents {
     margin: 4rem 0 6rem;
     padding: 0 0 6rem;
     border-bottom: 1px solid #ccc;
+
 }
 
 #agents p.large-paragraph {
@@ -364,6 +387,11 @@ header ul.is-sticky li a.active {
 /* start: best real estate company styles */
 #the-best {
     margin: 2rem 0;
+}
+
+#the-best1 {
+    margin: 2rem 0;
+    border-bottom: 1px solid #ccc;
 }
 
 #the-best .flex > img {
@@ -766,6 +794,10 @@ footer small a:hover {
 
     .large-paragraph {
         font-size: 1rem;
+    }
+    .large-paragraph1 {
+        font-size: 1rem;
+
     }
 
     p {
